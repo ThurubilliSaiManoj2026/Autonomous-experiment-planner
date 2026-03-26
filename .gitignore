@@ -1,0 +1,30 @@
+# Virtual environment — never upload this (it's 2+ GB)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# API keys — CRITICAL: never upload
+.env
+
+# ChromaDB local vector store — too large and user-specific
+data/chroma_db/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Test files (temporary verification scripts)
+test_arxiv.py
+test_retrieval.py
+test_analysis.py
+test_planning.py
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
