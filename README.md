@@ -175,25 +175,3 @@ Year-wise search with relevance sorting within each year ensures both recency
 and topical accuracy.
 
 ---
-
----
-
-## Step 3 — Create the .env.example File
-
-This file is the template that anyone cloning your repo will use. It shows what variables are needed without exposing your actual keys. Open `.env.example` in VS Code, paste this, and save.
-```
-# Copy this file to .env and fill in your actual values
-# Never commit the .env file — it is listed in .gitignore
-
-# Groq API key for the Planning Agent (Llama 3.3 70B)
-# Get your free key at: https://console.groq.com
-GROQ_API_KEY=your_groq_api_key_here
-
-# Ollama local server URL (default — do not change unless using a custom port)
-OLLAMA_BASE_URL=http://localhost:11434
-
-# ChromaDB storage directory
-CHROMA_PERSIST_DIR=./data/chroma_db
-
-# Embedding model for semantic search
-EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
