@@ -173,5 +173,3 @@ provide that breadth. Groq's free tier delivers responses in 5–15 seconds.
 papers that incidentally match keywords, not the most topically relevant ones.
 Year-wise search with relevance sorting within each year ensures both recency
 and topical accuracy.
-
----
