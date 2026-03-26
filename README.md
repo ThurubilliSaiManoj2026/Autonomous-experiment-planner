@@ -4,9 +4,6 @@ An agentic AI system that autonomously retrieves research literature,
 identifies knowledge gaps, generates scientific hypotheses, and produces
 complete experimental proposals — given only a plain-English research topic.
 
-Built as the End Semester Project for the Agentic AI Systems (Industry Track)
-course at Woxsen University, B.Tech CSE (AI/ML), Semester 8.
-
 ---
 
 ## What the System Does
@@ -23,7 +20,6 @@ Given a research topic such as *"Deepfake Detection Systems"* or
    experimental blueprint covering methodology, architecture, metrics,
    baselines, datasets, contribution, and timeline
 
-All six agentic requirements from the course project document are satisfied:
 Agent Orchestration, Planning and Reasoning, Memory Integration (RAG),
 Offline/Local Model, Cloud Model, and Tool Usage.
 
@@ -179,18 +175,6 @@ Year-wise search with relevance sorting within each year ensures both recency
 and topical accuracy.
 
 ---
-
-## Course Details
-
-| Field | Details |
-|-------|---------|
-| University | Woxsen University |
-| Programme | B.Tech CSE (AI/ML) |
-| Course | Agentic AI Systems — Industry Track |
-| Project | Project 5 — Autonomous Scientific Experiment Planner |
-| Submission Date | March 25, 2026 |
-| Student | Sai Manoj |
-```
 
 ---
 
